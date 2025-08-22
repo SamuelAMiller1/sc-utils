@@ -9,4 +9,4 @@ Early development (pre-release). API may change.
 
 ### Quickstart (coming soon)
 ```bash
-pip install cellstate-aligner
+pip install sc-utils
