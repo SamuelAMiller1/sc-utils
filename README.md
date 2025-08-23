@@ -1,13 +1,9 @@
 # sc-utils
 
-## Installation
-
-Base install:
+Installation:
 ```bash
 pip install sc-utils
-
-Optional install:
-pip install "sc-utils[plot,distance]"
+```
 
 ## cellstate-aligner
 
@@ -18,7 +14,7 @@ Fast, reproducible group-to-group alignment for single-cell datasets with plotti
 	•	Built-in plotting and label transfer
 	•	Lightweight, with optional dependencies only when needed
 
-### Quickstart
+#### Quickstart
 ```bash
 import scanpy as sc
 from cellstate_aligner import CellStateAligner
@@ -43,6 +39,7 @@ assign_df = aligner.assign(
     pred_col="pred_ref", adata_query=adata2
 )
 assign_df.head()
+```
 
 ### License
 MIT
