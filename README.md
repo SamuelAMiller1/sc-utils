@@ -7,11 +7,11 @@ pip install sc-utils
 
 ## cellstate-aligner
 
-Fast, reproducible group-to-group alignment for single-cell datasets with plotting and label transfer.
-	•	Vectorized Pearson/Spearman/Cosine for speed
-	•	Optional Kendall, distance correlation, or Lin’s concordance (CCC)
-	•	Flexible scaling: per-dataset or concat-pseudobulk
-	•	Built-in plotting and label transfer
+Fast, reproducible group-to-group alignment for single-cell datasets with plotting and label transfer.<br>
+	•	Vectorized Pearson/Spearman/Cosine for speed<br>
+	•	Optional Kendall, distance correlation, or Lin’s concordance (CCC)<br>
+	•	Flexible scaling: per-dataset or concat-pseudobulk<br>
+	•	Built-in plotting and label transfer<br>
 	•	Lightweight, with optional dependencies only when needed
 
 #### Quickstart
