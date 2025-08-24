@@ -16,7 +16,7 @@ Fast, reproducible group-to-group alignment for single-cell datasets with plotti
 #### Quickstart
 ```bash
 import scanpy as sc
-from cellstate_aligner import CellStateAligner
+from sc-utils import CellStateAligner
 
 # adata1 = reference, adata2 = query
 aligner = CellStateAligner().fit(
@@ -40,5 +40,3 @@ assign_df = aligner.assign(
 assign_df.head()
 ```
 
-### License
-MIT
