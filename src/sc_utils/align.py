@@ -1,4 +1,4 @@
-# src/cellstate_aligner/align.py
+# src/sc_utils/align.py
 from __future__ import annotations
 
 import numpy as np
